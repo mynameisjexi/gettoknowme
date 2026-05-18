@@ -1,0 +1,214 @@
+# gettoknowme
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional resume and portfolio of a skilled developer and creative professional.">
+    <title>Get To Know Me - Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header / Introduction -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="name">Your Name</h1>
+                <p class="title">Full Stack Developer | Creative Problem Solver</p>
+                <div class="contact-info">
+                    <a href="mailto:your.email@example.com" class="contact-link">✉ your.email@example.com</a>
+                    <a href="tel:+1234567890" class="contact-link">📞 (123) 456-7890</a>
+                    <a href="https://linkedin.com/in/yourprofile" class="contact-link" target="_blank">🔗 LinkedIn</a>
+                    <a href="https://github.com/yourprofile" class="contact-link" target="_blank">💻 GitHub</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I'm a passionate developer with 5+ years of experience building elegant solutions to complex problems. 
+                I specialize in creating user-centric applications that combine beautiful design with robust functionality. 
+                When I'm not coding, you can find me exploring new technologies or contributing to open-source projects.
+            </p>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            
+            <div class="job">
+                <div class="job-header">
+                    <h3>Senior Developer</h3>
+                    <span class="company">Tech Company Inc.</span>
+                    <span class="date">2023 - Present</span>
+                </div>
+                <ul class="achievements">
+                    <li>Led development of customer dashboard, improving user engagement by 45%</li>
+                    <li>Optimized database queries, reducing load time by 60%</li>
+                    <li>Mentored 3 junior developers on best practices and code quality</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <h3>Full Stack Developer</h3>
+                    <span class="company">Digital Solutions Ltd.</span>
+                    <span class="date">2021 - 2023</span>
+                </div>
+                <ul class="achievements">
+                    <li>Developed and deployed 12+ web applications using React and Node.js</li>
+                    <li>Implemented CI/CD pipelines, reducing deployment time by 50%</li>
+                    <li>Collaborated with design team to create intuitive user interfaces</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <h3>Junior Developer</h3>
+                    <span class="company">StartUp Ventures</span>
+                    <span class="date">2019 - 2021</span>
+                </div>
+                <ul class="achievements">
+                    <li>Built responsive websites for 20+ clients</li>
+                    <li>Fixed critical bugs and improved application performance</li>
+                    <li>Learned and mastered modern web development frameworks</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            
+            <div class="skill-category">
+                <h3>Technical</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">MongoDB</span>
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">Docker</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Professional</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Project Management</span>
+                    <span class="skill-tag">Team Leadership</span>
+                    <span class="skill-tag">Problem Solving</span>
+                    <span class="skill-tag">Communication</span>
+                    <span class="skill-tag">Agile/Scrum</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Tools & Platforms</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">AWS</span>
+                    <span class="skill-tag">GitHub</span>
+                    <span class="skill-tag">Jira</span>
+                    <span class="skill-tag">Figma</span>
+                    <span class="skill-tag">VS Code</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education">
+        <div class="container">
+            <h2>Education</h2>
+            
+            <div class="degree">
+                <div class="degree-header">
+                    <h3>Bachelor of Science in Computer Science</h3>
+                    <span class="school">University of Technology</span>
+                    <span class="date">2019</span>
+                </div>
+                <p class="details">GPA: 3.8/4.0 | Dean's List: 2017-2019</p>
+            </div>
+
+            <div class="degree">
+                <div class="degree-header">
+                    <h3>Full Stack Web Development Bootcamp</h3>
+                    <span class="school">Code Academy</span>
+                    <span class="date">2018</span>
+                </div>
+                <p class="details">500+ hours of intensive coding training</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            
+            <div class="project">
+                <h3>E-Commerce Platform</h3>
+                <p class="project-description">
+                    A full-stack e-commerce solution built with React and Node.js. Features include product catalog, 
+                    shopping cart, secure checkout, and admin dashboard. Processed $500K+ in transactions.
+                </p>
+                <div class="project-tech">
+                    <span>React</span>
+                    <span>Node.js</span>
+                    <span>MongoDB</span>
+                    <span>Stripe</span>
+                </div>
+                <a href="#" class="project-link">View Project →</a>
+            </div>
+
+            <div class="project">
+                <h3>Task Management App</h3>
+                <p class="project-description">
+                    Collaborative task management application with real-time updates. Built with React and Firebase 
+                    for seamless team collaboration. 1000+ active users.
+                </p>
+                <div class="project-tech">
+                    <span>React</span>
+                    <span>Firebase</span>
+                    <span>Tailwind CSS</span>
+                </div>
+                <a href="#" class="project-link">View Project →</a>
+            </div>
+
+            <div class="project">
+                <h3>Data Analytics Dashboard</h3>
+                <p class="project-description">
+                    Interactive analytics dashboard for data visualization and reporting. Real-time data updates 
+                    with interactive charts and customizable reports.
+                </p>
+                <div class="project-tech">
+                    <span>React</span>
+                    <span>D3.js</span>
+                    <span>Python</span>
+                    <span>PostgreSQL</span>
+                </div>
+                <a href="#" class="project-link">View Project →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Your Name. All rights reserved.</p>
+            <p class="tagline">Let's build something amazing together.</p>
+        </div>
+    </footer>
+</body>
+</html>
